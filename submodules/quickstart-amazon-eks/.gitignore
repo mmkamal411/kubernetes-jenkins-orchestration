@@ -1,0 +1,5 @@
+/.idea
+/taskcat_outputs
+/venv
+/ci/dev-config.yml
+.DS_Store

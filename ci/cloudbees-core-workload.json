@@ -1,0 +1,46 @@
+[
+    {
+        "ParameterKey": "KubeManifestLambdaArn",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "KubeGetLambdaArn",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "HelmLambdaArn",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "KubeConfigPath",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "KubeConfigKmsContext",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "StorageType",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "InitialNodeGroupSecurityGroup",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "PrivateSubnet1ID",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "PrivateSubnet2ID",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "PrivateSubnet3ID",
+        "ParameterValue": "override"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "$[taskcat_autobucket]"
+    }
+]

@@ -1,0 +1,31 @@
+global:
+  marketplace-ami: false
+  owner: quickstart-eng@amazon.com
+  qsname: quickstart-amazon-eks
+  regions:
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - eu-central-1
+    - eu-west-1
+    - eu-west-2
+    - eu-west-3
+    - ap-northeast-1
+    - ap-southeast-1
+    - ap-southeast-2
+  reporting: true
+  package-lambda: true
+tests:
+  quickstart-amazon-eks-defaults:
+    parameter_input: amazon-eks-defaults.json
+    template_file: amazon-eks-master.template.yaml
+  quickstart-amazon-eks-efs:
+    parameter_input: amazon-eks-efs.json
+    template_file: amazon-eks-master.template.yaml
+    regions:
+      - us-west-2
+  quickstart-amazon-eks-cluster-autoscaler:
+    parameter_input: amazon-eks-cluster-autoscaler.json
+    template_file: amazon-eks-master.template.yaml
+    regions:
+      - eu-central-1
