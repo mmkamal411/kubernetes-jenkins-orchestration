@@ -170,7 +170,7 @@ Parameters:
     Default: 10
   BastionIAMRoleName:
     Type: String
-    Default: ""
+    Default: "FFM-EKS-BastionRole"
   BastionEnableTCPForwarding:
     Type: String
     Default: "false"
